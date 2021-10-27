@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Baloo Chettan 2', cursive;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.container{
+    max-width: 1150px;
+    margin: auto;
+}
+
+/************* BUTTON *****************/
+
+.button{
+    text-decoration: none;
+    box-shadow: 0px 10px 20px rgba(22, 52, 7, 0.1);
+    border-radius: 20px 80px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    padding: 13px 44px;
+    display: inline-block;
+}
+
+.button-primary{
+    background: linear-gradient(180deg, #59BE29 0%, #59BE29 100%);
+    color: #fff;
+}
+
+.button-default{
+    background: #fff;
+    color: #59BE29;
+}
+
+
+/************ HEADER ***************/
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+.logo-image{
+    max-width: 164px;
+    max-height: 65px;
+}
+
+.menu{
+    display: flex;
+}
+
+.item{
+    list-style: none;
+    margin-right: 35px;
+}
+
+.item-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #0A1902;
+    opacity: 0.5;
+    border-bottom: 2px solid transparent;
+}
+
+.item-link.active{
+    opacity: 1;
+    color: #0A1902; 
+    border-bottom: 2px solid #59BE29;
+   
+}
+
+/************ FRESH-FRUIT **********************/
+
+
+.fresh-box{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    margin-bottom: 100px;
+}
+
+.fresh-fruit{
+    max-width: 530px;
+    max-height: 535px;
+}
+
+
+.fresh-fruit-slogan{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #0A1902;
+}
+
+.fresh-fruit-title{
+    font-weight: 600;
+    font-size: 121.108px;
+    line-height: 90%;
+    color: #59BE29;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.fresh-fruit-description{
+    font-size: 18px;
+    line-height: 160%;
+    color: #0A1902;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+.basket img.basket-img{
+    max-width: 556px;
+    max-height: 535px;
+}
+
+.basket{
+    position: relative;
+}
+
+.mur{
+    max-width: 107px;
+    max-height: 56px;
+}
+
+.mur1-img{
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+
+.mur2-img{
+    position: absolute;
+    top: 80px;
+    right: 80px;
+}
+
+
+/************** BANANA BOX ********************/
+
+.snack-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-height: 470px;
+    margin-bottom: 100px;
+}
+
+.snack-img{
+    max-width: 580px;
+    max-height: 470px;
+}
+
+.snack{
+    max-height: 524px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.snack-slogan{
+    font-weight: 600;
+    font-size: 49px;
+    line-height: 130%;
+    color: #0A1902;
+    margin-bottom: 25px;
+}
+
+.mint-img{
+    max-width: 130px;
+    max-height:35px;
+    position: absolute;
+    top: 85px;
+    left: 310px;
+}
+
+
+.snack-title{
+    color: #0A1902;
+    font-size: 18px;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-right: 20px;
+    display: inline-block;
+
+}
+
+.snack-description{
+    font-size: 18px;
+    line-height: 160%;
+    color: #0A1902;
+    opacity: 0.7;
+}
+
+.snack-static{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 140%;
+    color: #82CD5E;
+}
+
+.btn-round{
+    background: #FFFFFF;
+    display: inline-block;
+    width: 73px;
+    height: 73px;
+    /* background: tomato; */
+    box-shadow: 0px 10px 20px rgba(22, 52, 7, 0.05);
+    border-radius: 50%;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 140%;
+    color: #82CD5E;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.snack-info-colum{
+    display: flex;
+    align-items: center;
+}
+
+.snack-static-block{
+    display: flex;
+    align-items: center;
+}
